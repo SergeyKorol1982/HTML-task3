@@ -1,0 +1,140 @@
+.main{
+	margin-left: 250px;
+	margin-right: 250px;
+}
+.laravel{
+	font-size: 32px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.get_s{
+	border-top: 3px solid blue;
+	background-color: rgb(161,201,235);
+	padding-bottom: 20px;
+}
+.get_st{
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.get_st2{
+	font-size: 16px;
+	font-family: Arial;
+}
+.get_block{
+	
+	background-color: blue;
+	color: white;
+	padding: 5px;
+	margin-left: 20px;
+	font-family: Arial;
+	
+}
+
+.main_text{
+	font-size: 16px;
+}
+.colortext{
+	color: red;
+}
+.h3{
+	font-family: Arial;
+}
+.black_text{
+	background-color: black;
+	color: white;
+	padding: 5px;
+}
+.note{
+	background-color:	#F5F5F5;
+	border-left: 3px solid blue;
+	padding: 10px;
+	margin-left: 5px;
+}
+.line{
+	border-bottom: 5px;
+	border-color: black;
+	border-right-style: solid;
+	margin: 20px;
+	
+}
+.h4{
+	font-family: Arial;
+}
+.button{
+	width: 84px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 30px;
+	background-color:	#F5F5F5;
+	padding-left: 45px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.button_text{
+	font-family: Arial;
+}
+.button2{
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 30px;
+	background-color:	#F5F5F5;
+	padding-left: 22px;
+	align-self: flex-end;
+	display: inline-block;
+	margin-right: 10px;
+}
+.button3{
+	width: 77px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 30px;
+	background-color:	#F5F5F5;
+	padding-left: 30px;
+	align-self: flex-end;
+	display: inline-block;
+}
+.label{
+	width: 20px;
+	height: 20px;
+	margin-right: 12px;
+}
+.button_last {
+	width: 450px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 30px;
+	background-color: #B7C9E5;
+	margin-left: 200px;
+}
+.e_img {
+	width: 20px;
+	height: 20px;
+}
+.some_text{
+	display: inline-block;
+	font-family: Arial;
+	margin-left: 10px;
+}
+.some_text1{
+	font-family: Arial;
+}
+.like{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	color: blue;
+}
+.button_text_last{
+	font-family: Arial;
+	color: blue;
+	margin-left: 25px;
+}
+.unlike{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	rotate: 180deg;
+	color: blue;
+}

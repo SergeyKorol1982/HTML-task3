@@ -1,0 +1,44 @@
+How to create a folder if it does not exist using Laravel 8
+Get Started With Machine Learning
+
+Learn the fundamentals of Machine Learning with this free course. Future-proof your career by adding ML skills to your toolkit — or build foundational ML skills to land a job in AI or Data Science.
+
+Get Free Course
+While creating an application or working with files in your application, you will want to store a file in a folder. Sometimes there will be instances where the folder does not exist.
+
+You want to create that folder during the process so the file can be stored without making the user resend the request.
+
+You can create folder or directory by using the File::makeDirectory() function.
+
+Syntax
+File::makeDirectory($path, $mode, $recursive, $force)
+Parameters
+The File::makeDirectory function takes the following as input parameters:
+
+$path: This string represents the path of the directory we wish to create.
+
+$mode: This is a four-digit integer that is used to set permissions for the directory.
+
+$mode: This is a boolean variable used to specify if the recursive mode is set.
+
+$force: This is a boolean variable that, when set, lets you create a file in the profile path even when the directories in the path do not exist.
+
+Return value
+The function returns true if the requested directory is created. Otherwise, it returns false.
+
+Code
+public function createDirecrotory(Request $request)
+{
+    $path = public_path('upload/');
+
+    if(!File::isDirectory($path)){
+        File::makeDirectory($path, 0777, true, true);
+
+// retry storing the file in newly created path.
+    }   
+}
+The above code has $path, which is basically an upload folder where you want to store the file.
+
+We check if it exists, and if it doesn’t, we create the upload folder.
+
+Note: The File::isDirectory() function is used to check whether or not the given path exists.
