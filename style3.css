@@ -102,11 +102,12 @@
 }
 .button_last {
 	width: 450px;
-	height: 50px;
+	height: 75px;
 	border: 2px solid black;
 	border-radius: 30px;
 	background-color: #B7C9E5;
-	margin-left: 200px;
+	margin-left: 250px;
+	margin-top: 25px;
 }
 .e_img {
 	width: 20px;
@@ -121,20 +122,25 @@
 	font-family: Arial;
 }
 .like{
-	display: inline-block;
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	color: blue;
+	margin: 7px;
+	
 }
 .button_text_last{
 	font-family: Arial;
+	font-size: 20px;
 	color: blue;
-	margin-left: 25px;
+	display: inline-block;
+    align-items: left;
+	margin-left: 7px;
+	
 }
 .unlike{
 	display: inline-block;
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	rotate: 180deg;
 	color: blue;
 }
