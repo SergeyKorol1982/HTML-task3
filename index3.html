@@ -14,25 +14,21 @@
 			<p class='get_st2'>Learn the fundamentals of Machine Learning with this free course. Future-proof your career by adding ML skills to your toolkit — or build foundational ML skills to land a job in AI or Data Science.</p>
 			<a class='get_block'>Get Free Course</a>
 		</div>
-			
-			
-			
-		
-		<p class='main_text'>While creating an application or working with files in your application, you will want to store a file in a folder. Sometimes there will be instances where the folder does not exist.</p>
-		<p class='main_text'>You want to create that folder during the process so the file can be stored without making the user resend the request.</p>
-		<p class='main_text'>You can create folder or directory by using  <span class="colortext">the File::makeDirectory()</span> function. </p>
+			<p class='main_text'>While creating an application or working with files in your application, you will want to store a file in a folder. Sometimes there will be instances where the folder does not exist.</p>
+			<p class='main_text'>You want to create that folder during the process so the file can be stored without making the user resend the request.</p>
+			<p class='main_text'>You can create folder or directory by using  <span class="colortext">the File::makeDirectory()</span> function. </p>
 		<h3 class='h3'>Syntax</h3>
-		<p class='black_text'>File::makeDirectory($path, $mode, $recursive, $force)</p>
+			<p class='black_text'>File::makeDirectory($path, $mode, $recursive, $force)</p>
 		<h3 class='h3'>Parameters</h3>
-		<p class='main_text'>The <span class="colortext">file::makeDirectory</span> function takes the following as input parameters:</p>
-		<li><span class="colortext">$path:</span>This string represents the path of the directory we wish to create.</li>
-		<li><span class="colortext">$mode:</span> This is a four-digit integer that is used to set permissions for the directory.</li>
-		<li><span class="colortext">$mode:</span> This is a boolean variable used to specify if the recursive mode is set</li>
-		<li><span class="colortext">$force:</span> This is a boolean variable that, when set, lets you create a file in the profile path even when the directories in the path do not exist.</li>
+			<p class='main_text'>The <span class="colortext">file::makeDirectory</span> function takes the following as input parameters:</p>
+				<li><span class="colortext">$path:</span>This string represents the path of the directory we wish to create.</li>
+				<li><span class="colortext">$mode:</span> This is a four-digit integer that is used to set permissions for the directory.</li>
+				<li><span class="colortext">$mode:</span> This is a boolean variable used to specify if the recursive mode is set</li>
+				<li><span class="colortext">$force:</span> This is a boolean variable that, when set, lets you create a file in the profile path even when the directories in the path do not exist.</li>
 		<h3 class='h3'>Return value</h3>
-		<p class='main_text'>The function returns <span class="colortext"> true</span> if the requested directory is created. Otherwise, it returns false.</p>
+			<p class='main_text'>The function returns <span class="colortext"> true</span> if the requested directory is created. Otherwise, it returns false.</p>
 		<h3 class='h3'>Code</h3>
-		<pre class='black_text'>p{
+			<pre class='black_text'>p{
 						$path = public_path('upload/');
 
 					if(!File::isDirectory($path)){
@@ -41,40 +37,38 @@
 					// retry storing the file in newly created path.
 				}   
 				}</pre>
-		<p class='main_text'>The above code has <span class="colortext">$path</span>, which is basically an upload folder where you want to store the file.</p>
-		<p class='main_text'>We check if it exists, and if it doesn’t, we create the <span class="colortext"> upload</span> folder.</p>
+			<p class='main_text'>The above code has <span class="colortext">$path</span>, which is basically an upload folder where you want to store the file.</p>
+			<p class='main_text'>We check if it exists, and if it doesn’t, we create the <span class="colortext"> upload</span> folder.</p>
 		<div class='note'>
-		<p class='main_text'>   Note: <span class="colortext">The File::isDirectory()</span> function is used to check whether or not the given path exists.</p>
+			<p class='main_text'>   Note: <span class="colortext">The File::isDirectory()</span> function is used to check whether or not the given path exists.</p>
 		</div>	
 		<hr>
         <h4 class='h4'>RELATED TAGS</h4>
 		<div class='button'>
-		<p class='button_text'>folder</p>
+			<p class='button_text'>folder</p>
 		</div>
 		<div class='button2'>
-		<p class='button_text'>php</p>
+			<p class='button_text'>php</p>
 		</div>
 		<div class='button3'>
-		<p class='button_text'>laravel</p>
+			<p class='button_text'>laravel</p>
 		</div>
 		<h4 class='h4'>CONTRIBUTOR</h4>
-		<img class='e_img' src=image/unnamed.png>
-		<p class='some_text'>Some text i dont see</p>
+			<img class='e_img' src=image/unnamed.png>
+			<p class='some_text'>Some text i dont see</p>
 		<hr>
-		<p class='some_text1'>Some text i dont see Some text i dont see</p>
+			<p class='some_text1'>Some text i dont see Some text i dont see</p>
 		<div>
-		<img class=label src=image/heart.png>
-		<img class=label src=image/label.png>
-		<img class=label src=image/share.png>
-		<img class=label src=image/loudspeaker.png>
+			<img class=label src=image/heart.png>
+			<img class=label src=image/label.png>
+			<img class=label src=image/share.png>
+			<img class=label src=image/loudspeaker.png>
 		</div>
 		<button class='button_last'>
-		<p class='button_text_last'>Did you find this helpfull?</p>
-		<img class=like src=image/like.png>
-		<img class=unlike src=image/like.png>
-		
+			<p class='button_text_last'>Did you find this helpfull?</p>
+			<img class=like src=image/like.png>
+			<img class=unlike src=image/like.png>
 		</button>
-
 	</div>
 	</body>
 </html>
